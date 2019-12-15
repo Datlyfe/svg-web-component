@@ -1,6 +1,6 @@
 # svg-web-component
 
-A custom web component for diplaying svg icons.
+A custom web component for rendering svg icons.
 
 ## Instalation
 

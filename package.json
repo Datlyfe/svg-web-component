@@ -1,7 +1,7 @@
 {
   "name": "svg-web-component",
   "version": "1.0.0",
-  "description": "web component for displaying svg icons",
+  "description": "web component for rendering svg icons",
   "scripts": {
     "build": "webpack -p"
   },
