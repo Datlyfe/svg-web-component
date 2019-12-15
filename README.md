@@ -6,13 +6,13 @@ A custom web component for diplaying svg icons.
 
 ### NPM
 
-```console
+```shell
 npm install svg-web-component
 (or)
 yarn add svg-web-component
 ```
 
-Add your svg data by calling the load function wich takes an object where the keys are the name of the icon and the value is the svg source,
+Add your svg data by calling the load function which takes an object where the key is the icon name and the value is the svg source,
 
 ```javascript
 import svgWebComponent from "svg-web-component";
