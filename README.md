@@ -16,7 +16,7 @@ Add your svg data by calling the load function which takes an object where the k
 
 ```javascript
 import svgWebComponent from "svg-web-component";
-SvgWebComponent.load({
+svgWebComponent.load({
   plus:
     '<svg  viewBox="0 0 24 24"><path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"/></svg>'
 });
