@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>svg-web-component</title>
+    <script src="/dist/svg-web-component.js"></script>
+    <script>
+      SvgWebComponent.default.load({
+        plus:
+          '<svg viewBox="0 0 24 24"><path d="M12 6l-6 8h12zM6 16h12v2H6z"/></svg>'
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Test Page</h1>
+    <div id="app">
+      <svg-icon color="#dea" name="eject"></svg-icon>
+      <svg-icon color="#dea" name="plus"></svg-icon>
+      <svg-icon color="#dea" name="xs"></svg-icon>
+    </div>
+  </body>
+</html>
